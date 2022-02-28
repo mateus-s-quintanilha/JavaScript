@@ -1,0 +1,20 @@
+body {
+    background: darkcyan;
+    font: normal 18pt Arial;
+}
+h1 { 
+    text-align: center;
+    color: white;
+}
+section {
+    background: white;
+    padding: 15px;
+    border-radius: 20px;
+    margin: auto;
+    width: 500px;
+}
+footer {
+    text-align: center;
+    font-style: italic;
+    color: white;
+}

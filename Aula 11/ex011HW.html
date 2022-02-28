@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identificar país</title>
+    <style>
+        h1 {
+            font: oblique 30pt Arial;
+            color: coral;
+        }
+        body { 
+            background: darkgray;
+        }
+        input#txt1 {
+            line-height: 20px;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Identificar país de origem</h1>
+    Digite o país em que nasceu: <input type="text" name="txt1" id="txt1">
+    <input type="button" value="Verificar" onclick="clicar()">
+    <div id="res">
+        Resultado: 
+    </div>
+
+
+    <script>
+        function clicar() {
+            var tx1 = window.document.getElementById('txt1')
+            var res = window.document.getElementById('res')
+            var pais = tx1
+            if(pais.value.toUpperCase() == 'BRASIL') {
+                res.innerHTML = '<p>Você é brasileiro!</p>'
+            } else {
+                res.innerHTML = '<p>Você é estrangeiro</p>'
+            }
+            res.innerHTML += '<p>Obrigado por participar do teste! XD S2</p>'
+            }
+        
+    </script>
+</body>
+</html>

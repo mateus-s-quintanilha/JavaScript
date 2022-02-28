@@ -1,0 +1,31 @@
+body {
+    font: normal 18pt Arial;
+    background: crimson;
+}
+h1 {
+    font: oblique 30pt Arial;
+    text-align: center;
+}
+section {
+    background:  white;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    border-radius: 15px;
+    color: black;
+    box-shadow: 5px 5px 10px black;
+}
+footer {
+   text-align: center; 
+   font-style: italic;
+}
+img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    
+}
+p#fotu {
+    text-align: center;
+}

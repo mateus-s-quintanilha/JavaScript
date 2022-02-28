@@ -1,0 +1,36 @@
+body{
+    background: yellowgreen;
+    font: normal 18pt Arial;
+
+}
+h1{
+    text-align: center;
+    font-size: 50pt;
+    font-style: oblique;
+}
+h2{
+    text-align: center;
+    color: darkslategrey;
+}
+section{
+    background: cornsilk;
+    width:  600px;
+    border-radius: 15px;
+    margin: auto;
+    padding: 20px;
+    color: black;
+    box-shadow: 5px 5px 10px black;
+}
+footer{
+    text-align: center;
+    font-style: italic;
+}
+p#fotu{
+    text-align: center;
+}
+img {
+    border-radius: 10%;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}

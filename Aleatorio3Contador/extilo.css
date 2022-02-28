@@ -1,0 +1,21 @@
+body {
+    background: blueviolet;
+    font: normal 18pt Arial;
+}
+h1{
+    text-align: center;
+    font: oblique;
+    color: white;
+}
+section {
+    background: white;
+    margin: auto;
+    border-radius: 15px;
+    padding: 20px;
+    width: 500px;
+}
+footer{
+    text-align: center;
+    font-style: italic;
+    color: white;
+}

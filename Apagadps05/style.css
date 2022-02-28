@@ -1,0 +1,17 @@
+header{
+    font: oblique 30pt Arial;
+    margin: auto;
+    text-align: center;
+}
+section{
+    text-align: center;
+    background-color: violet;
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px;
+}
+select#seltab{
+    width: 170px;
+}

@@ -1,0 +1,27 @@
+body {
+    background: rgb(99, 99, 184);
+    font: normal 18pt Arial;
+}
+h1 {
+    text-align: center;
+    font: normal 25pt Arial;
+}
+section {
+    background: white;
+    width: 500px;
+    margin: auto;
+    border-radius: 15px;
+    color: black;
+    padding: 20px;
+    box-shadow: 5px 5px 10px black;
+}   
+img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    
+}
+p#fotu{
+    text-align: center;
+}

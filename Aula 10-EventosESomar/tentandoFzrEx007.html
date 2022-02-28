@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somando Números 2</title>
+    <style>
+        body {
+            background: whitesmoke;
+        }
+        h1#t1 {
+            color: black;
+            font: oblique 25pt Arial;
+        }
+        div#res {
+            font: normal 18pt Arial;
+            color: black;
+            margin-top: 20px;
+        }
+        h1#t2 {
+            color: black;
+            font: oblique 25pt Arial;
+        }
+        div#res2 {
+            font: normal 18pt Arial;
+            color: black;
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 id="t1">Somando Resultados</h1>
+    <input type="number" name="txtn1" id="txtn1"> +
+    <input type="number" name="txtn2" id="txtn2">
+    <input type="button" value="Somar" onclick="somar()">
+    <div id="res">
+        Resultado: 
+    </div>
+
+    <h1 id="t2">
+        Diminuindo resultados
+    </h1>
+    <input type="number" name="txt10" id="txt10"> - 
+    <input type="number" name="txt11" id="txt11">
+    <input type="button" value="Diminuir" onclick="diminuir()">
+    <div id="res2">
+        Resultado: 
+    </div>
+
+
+
+    <script>
+        function somar() {
+        var txt1 = window.document.getElementById('txtn1')
+        var txt2 = window.document.getElementById('txtn2')
+        var res = window.document.getElementById('res')
+        var n1 = Number.parseFloat(txt1.value)
+        var n2 = Number.parseFloat(txt2.value)
+        var s = n1 + n2
+        res.innerHTML = `A soma entre os números ${n1} e ${n2} é: <strong>${s}</strong>`
+        }
+        function diminuir() {
+            var tx10 = window.document.getElementById('txt10')
+            var tx11 = window.document.getElementById('txt11')
+            var res = window.document.getElementById('res2')
+            var n10 = Number.parseFloat(tx10.value)
+            var n11 = Number.parseFloat(tx11.value)
+            var d = n10 - n11
+            res.innerHTML = `A subtração entre os números ${n10} e ${n11} é: <strong>${d}</strong>`
+        }
+    </script>
+</body>
+</html>

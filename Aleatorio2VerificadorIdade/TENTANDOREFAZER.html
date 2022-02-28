@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <style>
+        body{
+            background-color: aqua;
+            font: normal 20pt Arial;
+        }
+        h1{
+            text-align: center;
+            margin: auto;
+            font: oblique 30pt Arial;
+        }
+        section{
+            background-color: white;
+            width: 500px;
+            margin: auto;
+            padding: 15px;
+            border-radius: 15px;
+        }
+        img {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            margin: auto;
+        }
+        p#fotu{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+
+    <section>
+        <div><p>Ano de nascimento: <input type="number" name="" id="nascimento">
+            </p>
+            <p>Sexo: <input type="radio" name="radsex" id="masc" checked>
+                <label for="masc">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <p><input type="button" value="Verificar" onclick="clicar()"></p>
+        </div>
+        <div>
+            <p id="tex">Aguarde o resultado...</p>
+            <p id="fotu"><img id="foto" src="" alt="foto de legenda"></p>
+        </div>
+    </section>
+    
+    <script src="TENTANDOREFAZER.js"></script>
+</body>
+</html>
